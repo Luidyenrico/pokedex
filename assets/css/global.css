@@ -8,8 +8,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: #F6F8FC;
+}
+
 .content {
+    height: 100vh;
+    width: 100vw;
     padding: 1rem;
+    background-color: #FFF;
 }
 
 .pokemons {
@@ -28,7 +35,9 @@
     color: white;
 }
 .bulbasaur-evo { background-color: #1DCAAA; }
+.bulbasaur-evo .type { background-color: #40DBC1; }
 .charmander-evo { background-color: #FF6265; }
+.charmander-evo div .type { background-color: #ff8d8f; }
 
 .pokemon .number {
     color: rgba(0, 0, 0);
