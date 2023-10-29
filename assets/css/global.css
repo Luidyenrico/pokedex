@@ -34,10 +34,7 @@ body {
     border-radius: 1rem;
     color: white;
 }
-.bulbasaur-evo { background-color: #1DCAAA; }
-.bulbasaur-evo .type { background-color: #40DBC1; }
-.charmander-evo { background-color: #FF6265; }
-.charmander-evo div .type { background-color: #ff8d8f; }
+.pokemon { background-color: #1DCAAA; }
 
 .pokemon .number {
     color: rgba(0, 0, 0);
@@ -64,8 +61,6 @@ body {
     font-size: .6rem;
     border-radius: 1rem;
 }
-
-
 
 .detail img {
     max-width: 100%;
